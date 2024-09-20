@@ -7,7 +7,7 @@
     <title>Web CV Hélène FINOT</title>
 
     <!-- Main CSS File -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <!-- LinkedIn Profile -->
             <a href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-finot/" target="_blank">
                 <button class="button-89">
-                    <img height="30" src="img/LI-In-Bug-h30.png" alt="LinkedIn">
+                    <img height="30" src="/img/LI-In-Bug-h30.png" alt="LinkedIn">
                 </button>
             </a>
     
@@ -36,32 +36,81 @@
                 </button>
             </a>
     
-<!-- Download CV Button -->
-        <a href="files/cv-helene-finot.pdf" download>
-            <button class="button-89">
-                <span style="padding-left: 10px;">Télécharger le CV</span>
-            </button>
-        </a>
-    
-        </div>
+            <!-- Github Profile -->
+            <a href="https://github.com/HeleneFnt" target="_blank">
+                <button class="button-89">
+                    <img height="30" alt="GitHub">
+                </button>
+            </a>
     </nav>
 
     <!-- Présentation -->
     <section class="Intro">
-        <h3 class="text-center mt-4">Hélène Finot</h3>
+        <h2 class="text-center mt-4">Hélène Finot</h2>
         <h1 class="text-center"> Administratrice Système DevOps</h1>
         <p class="text-center">Déterminée à relever de nouveaux défis, je suis prête à contribuer à l'excellence
             opérationnelle des entreprises en mettant à profit ma vision et mon engagement.</p>
         <p class="text-center">À la recherche d'une opportunité pour mettre en pratique mes compétences, et participer à
-            des projets innovants à partir de septembre 2024 pour une durée de 1 an.</p>
+            des projets innovants... Disponibilité : immédiate !</p>
 
 <!-- Bouton pour inverser les couleurs -->
 <div class="text-center mt-3">
     <button class="button-89" id="toggle-colors">
-        <img src="img/dark-theme-icon.png" alt="Inverser les couleurs"
+        <img src="assets/img/dark-theme-icon.png" alt="Inverser les couleurs"
             style="width: 24px; height: 24px;">
     </button>
 </div>
+
+<h2 class="text-center text-primary pt-4">Compétences DevOps</h2>
+<h4 class="text-center text-secondary fst-italic">en cours d'acquisition en 2024</h4>
+
+<!-- ACCORDION 1 : INFRA / OPS -->
+<div class="accordion" id="accordionDevOpsSkills">
+    <div class="accordion-item">
+        <div class="accordion-header">
+            <button class="accordion-button" type="button" data-target="#collapseOne">
+                Automatisation du déploiement d’une infrastructure dans le cloud
+            </button>
+        </div>
+        <div id="collapseOne" class="accordion-collapse">
+            <div class="accordion-body">
+                <p>Création de serveurs (automatisation, scripts), automatisation du déploiement, sécurisation et mise
+                    en production.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <div class="accordion-header">
+            <button class="accordion-button" type="button" data-target="#collapseTwo">
+                Déploiement en continu d’une application
+            </button>
+        </div>
+        <div id="collapseTwo" class="accordion-collapse">
+            <div class="accordion-body">
+                <p>Préparation d'un environnement de test, gestion du stockage des données, gestion des containers,
+                    automatisation de la mise en production avec une plateforme type Ansible.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <div class="accordion-header">
+            <button class="accordion-button" type="button" data-target="#collapseThree">
+                Supervision des services déployés
+            </button>
+        </div>
+        <div id="collapseThree" class="accordion-collapse">
+            <div class="accordion-body">
+                <p>Définition et mise en place des statistiques de services, exploitation d'une solution de supervision.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END ACCORDION -->
+
+
 
     </section>
 
@@ -79,24 +128,26 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>2023 | 2025</td>
-                    <td>Formation au Titre RNCP Administrateur système DevOps, Valence</td>
+                    <td>2023-2025</td>
+                    <td>Formation au Titre RNCP Administrateur Système DevOps, Valence</td>
                     <td>
-                        <strong>Hard Skills :</strong><br>
+                        <strong>Hard Skills :</strong>
                         <em>Spécialisation Dev :</em> Linux, HTML5, CSS3, Bootstrap5, UX/UI (Figma), Java, Processing,
                         SQL,
                         PHP8, Laravel, JavaScript, Node JS, Python.<br>
                         <em>Bases de données, serveur et administration des réseaux :</em> LNMP, MariaDB, architecture
                         MVC,
                         POO.<br>
+                        <br>
                         <em>Spécialisation Ops :</em> Git, Github, Gitlab, ML Ops, Infrastructure & VM, Test,
                         Intégration
                         Continue, Sécurisation, Déploiement Continu, Monitoring, Docker, Multiréplication, Cloud.<br>
+                        <br>
                         <strong>Soft Skills & Méthodes :</strong> Travail d’équipe, Polyvalence, Méthodologie Agile.
                     </td>
                 </tr>
                 <tr>
-                    <td>2008 | 2010</td>
+                    <td>2008-2010</td>
                     <td>BTS Communication et Industries Graphiques option ERPG, Grenoble</td>
                     <td>
                         <strong>Compétences acquises :</strong> Études de Réalisation d’un Projet de Communication,
@@ -105,7 +156,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>2007 | 2008</td>
+                    <td>2007-2008</td>
                     <td>1ère année Licence Langues Littératures et Civilisations Étrangères : Anglais, Clermont-Ferrand
                     </td>
                     <td>
@@ -116,7 +167,7 @@
                 </tr>
                 <tr>
                     <td>2007</td>
-                    <td>Bac STI Génie électronique</td>
+                    <td>Bac STI Génie électronique, Bourges</td>
                     <td>
                         <strong>Compétences acquises :</strong>
                     Bases en électronique, compréhension des systèmes électroniques, analyse et résolution de problèmes techniques,
@@ -134,7 +185,7 @@
     <div class="card-container">
         <!-- Carte 1 -->
         <div class="card">
-            <img src="img/IM.png" alt="Impressions Modernes" class="card-img">
+            <img src="assets/img/IM.png" alt="Impressions Modernes" class="card-img">
             <div class="card-body">
                 <h5 class="card-title">Impressions Modernes</h5>
                 <h6 class="card-subtitle">Conductrice polyvalente en industries graphiques</h6>
@@ -152,7 +203,7 @@
         </div>
         <!-- Carte 2 -->
         <div class="card">
-            <img src="img/Conduent.jpg" alt="Conduent" class="card-img">
+            <img src="assets/img/Conduent.jpg" alt="Conduent" class="card-img">
             <div class="card-body">
                 <h5 class="card-title">Conduent</h5>
                 <h6 class="card-subtitle">Conseillère service client</h6>
@@ -170,7 +221,7 @@
         </div>
         <!-- Carte 3 -->
         <div class="card">
-            <img src="img/isl.png" alt="ISL" class="card-img">
+            <img src="assets/img/isl.png" alt="ISL" class="card-img">
             <div class="card-body">
                 <h5 class="card-title">ISL</h5>
                 <h6 class="card-subtitle">Opératrice PAO</h6>
@@ -188,7 +239,7 @@
         </div>
         <!-- Carte 4 -->
         <div class="card">
-            <img src="img/whv.jpeg" alt="Working Holidays Visa" class="card-img">
+            <img src="assets/img/whv.jpeg" alt="Working Holidays Visa" class="card-img">
             <div class="card-body">
                 <h5 class="card-title">Working Holidays Visa</h5>
                 <h6 class="card-subtitle">Multiples expériences</h6>
@@ -212,29 +263,27 @@
     <h3 class="text-center">Centres d'intérets</h3>
     <div class="hobbies-container">
         <div class="hobby-item">
-            <img src="img/des-sports.png" alt="Sports Icon">
+            <img src="assets/img/des-sports.png" alt="Sports Icon">
         </div>
         <div class="hobby-item">
-            <img src="img/casque-de-musique.png" alt="Music Icon">
+            <img src="assets/img/casque-de-musique.png" alt="Music Icon">
         </div>
         <div class="hobby-item">
-            <img src="img/couture.png" alt="Crafts Icon">
+            <img src="assets/img/couture.png" alt="Crafts Icon">
         </div>
         <div class="hobby-item">
-            <img src="img/ecology.png" alt="Environment Icon">
+            <img src="assets/img/ecology.png" alt="Environment Icon">
                 </div>
                 <div class="hobby-item">
-                    <img src="img/open-source.png" alt="Open Source Icon">
+                    <img src="assets/img/open-source.png" alt="Open Source Icon">
     </div>
     </div>
 </section>
 
 
-    <script>
-        document.getElementById('toggle-colors').addEventListener('click', function () {
-            document.body.classList.toggle('inverted');
-        });
-    </script>
+<script src="assets/js/scripts.js"></script>
+
+    
 </body>
 
 </html>

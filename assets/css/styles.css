@@ -153,6 +153,90 @@ body.inverted .button-89 {
     color: #ffffff;
 }
 
+/* Accordion Styles */
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: 600px;
+    /* Limite la largeur maximale de l'accordéon */
+    margin: 20px auto;
+    /* Centre l'accordéon et ajoute de l'espace autour */
+    width: 100%;
+    /* Permet à l'accordéon de prendre 100% de la largeur disponible */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ajoute un léger ombrage pour l'effet visuel */
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    /* Séparation visuelle entre les éléments */
+}
+
+.accordion-header button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: none;
+    text-align: left;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accordion-header button:hover {
+    background-color: #e2e6ea;
+}
+
+.accordion-button::after {
+    content: "\002B";
+    /* plus sign */
+    float: right;
+    font-size: 1.3em;
+}
+
+.accordion-collapse {
+    display: none;
+    padding: 0 15px;
+    background-color: #f1f1f1;
+}
+
+.accordion-body {
+    padding: 15px;
+    font-size: 1em;
+    color: #333;
+}
+
+.accordion-item.active .accordion-collapse {
+    display: block;
+}
+
+.accordion-item.active .accordion-button::after {
+    content: "\2212";
+    /* minus sign */
+}
+
+/* Responsiveness: Adjust the padding and font size for smaller screens */
+@media (max-width: 768px) {
+    .accordion {
+        max-width: 100%;
+        /* Utilise toute la largeur sur les petits écrans */
+        padding: 10px;
+    }
+
+    .accordion-header button {
+        font-size: 1em;
+        /* Réduit la taille de la police sur les petits écrans */
+        padding: 12px;
+        /* Ajuste la taille du padding */
+    }
+
+    .accordion-body {
+        font-size: 0.9em;
+        /* Réduit la taille du texte sur les petits écrans */
+    }
+}
+
 /*--------------------------------------------------------------
 # Card Styles
 --------------------------------------------------------------*/
@@ -293,7 +377,7 @@ body.inverted .button-89 {
 .table-formation {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 0 auto;
     font-size: 0.9em;
     text-align: left;
 }
@@ -306,6 +390,8 @@ body.inverted .button-89 {
 .table-formation td {
     padding: 10px 8px;
     border: 1px solid #ddd;
+    
+    
 }
 
 .table-formation tbody tr:nth-child(even) {
