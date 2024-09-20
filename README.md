@@ -14,7 +14,7 @@
 
 ---
 
-<div align="center"><img src="img/bann.svg"></div>
+<div align="center"><img src="assets/img/bann.svg"></div>
 
 <div id="badges" align="center">
   <a href="https://fr.linkedin.com/in/hélène-finot">
@@ -26,7 +26,7 @@
 
 <br>
 
-
+ Accédez à mon CV en ligne ici 👉 https://helenefnt.github.io/HeleneFnt/ 👈
 
 ---
 
@@ -61,7 +61,7 @@
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg" />          
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" />
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" />
-<img width="40px" src="img/network_logo.webp" />
+<img width="40px" src="assets/img/network_logo.webp" />
 
 #### Software
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" />                
@@ -74,9 +74,9 @@
 #### Virtualization & Automation
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />          
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg" />
-<img width="40px" src="img/kvm_logo.webp" />
+<img width="40px" src="assets/img/kvm_logo.webp" />
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />          
-<img width="40px" src="img/zabbix_logo.webp" />    
+<img width="40px" src="assets/img/zabbix_logo.webp" />    
 
 ---
 
@@ -86,5 +86,5 @@
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" />
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg" />          
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />          
-<img width="40px" src="img/obsidian_logo.webp" />
-<img width="40px" src="img/scrum_logo.webp" />
+<img width="40px" src="assets/img/obsidian_logo.webp" />
+<img width="40px" src="assets/img/scrum_logo.webp" />
